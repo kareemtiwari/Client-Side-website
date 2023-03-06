@@ -1,0 +1,242 @@
+/* Kareem Tiwari */
+
+html{
+	background-image: url("../images/Astronautinspace.jpeg");
+	background-repeat:repeat;
+}
+body{font-family: 'Courier New' , monospace;
+	width:800px;
+	margin:1em auto;
+	border-width:3px;
+	border-color:black;
+	background-color: linear-gradiaent(90deg,purple 10%,#87CEEB 75%,#65FF00 100%);
+	box-shadow:9px 0px 18px 4px black;
+	}
+	
+
+header img{
+	float:left;
+	margin-right: 1em;
+	padding-top:0px;
+	padding-right:15px;
+	padding-left:0px;
+	padding-bottom:0px;
+}
+
+header{
+	background-image: linear-gradient(90deg, white 0%, blue 75%, red 100%);
+	padding-top:20px;
+	padding-bottom:150px;
+	padding-left:20px;
+	padding-right:20px;
+	clear:both;
+	
+}
+		
+header h1{
+	font-size: 230%;
+	text-indent:25px;
+	
+	color: White ;*/
+	/*text-shadow: 4px 4px black;*/
+	/*font-style: italic;*/
+	
+}
+		
+header h2{
+	font-size: 125%;
+	text-indent: 25px;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:0;
+	margin-left:0;
+}
+
+
+#main_nav ul{
+	list-style-type:none;
+	position:center;
+	margin:0;
+	padding:0;
+}
+
+#main_nav ul li{
+	position:center;
+	float:left;
+	
+}
+
+#main_nav ul li:hover > ul{
+	display:block;
+}
+#main_nav > ul::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#main_nav ul li a{
+	text-align:center;
+	display:block;
+	width:160px;
+	text-decoration:none;
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	padding:1em 0;
+	
+}
+#main_nav ul li a.current{
+	color:#65FF00;
+}
+
+#main_nav ul li a.hover{
+	color:#87CEEB;
+}
+
+#main_nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+}
+
+#main_nav ul ul li{
+	float:none;
+}
+
+	
+main h1{
+	font-size:140%;
+	margin-bottom:0;
+}
+
+main p{
+	margin-top:0;
+	
+}
+
+main{
+	border-width:1px 1px;
+	border-style:solid none;
+	border-color:black;
+	margin-left:0;
+}
+main section a:link{
+	color:black;
+	font-style:;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-right:25px;
+	padding-left:25px;
+	padding-bottom:25px;
+	
+	
+	
+			
+	}
+main section a:hover, a:focus{
+	
+			
+}
+
+
+main h1:first-child::first-letter{
+	font-size:280%;
+	margin-bottom:0;
+}
+
+main h2{
+	margin-bottom:0;
+	margin-top:2px;
+}
+
+main h3{
+	margin-top:2px;
+	margin-bottom:0;
+}
+
+section{
+	width:600px;
+	float:right;
+}
+aside{
+	padding-top:0;
+	float:left;
+	text-color:#65FF00;
+}
+
+aside ul{
+	list-style-type:none;
+	margin-left: 10.3em;
+	margin-bottom:2.5em;
+	margin-top:2.5em;
+	text-color:#65FF00;
+	
+}
+
+aside ul li{
+	width:400px;
+	border:2px solid black;
+	vertical-align:middle;
+	margin-bottom:5px;
+	text-color:#65FF00;
+	
+}
+
+aside ul li a{
+	display:block;
+	background-color:#87CEEB;
+	text-decoration:#65FF00;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+	font-weight:bold;
+	
+	
+	
+}
+aside ul li a.current{
+	text-decoration:underline;
+}
+aside ul li a.hover,a.focus{
+	text-decoration:underline;
+}
+		
+main ul{
+	line-height: 1.5;
+	margin-top:0;
+	margin-bottom:0;
+	padding-left:0px;
+}
+footer{
+	background-image: linear-gradient(90deg,red 0%, blue 75%, white 100%);
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	clear:both;
+}
+
+		
+footer p{
+	font-size:90%;
+	text-align: center;
+}
+ aside{
+	 width:140px;
+	 float:left;
+	 margin:0;
+	 padding-top:30px;
+	 padding-left:30px;
+
+	
+}
+
+section{
+	width:600px;
+	float:right;
+}
+		
+	
